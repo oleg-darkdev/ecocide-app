@@ -1,10 +1,10 @@
 <script>
-  export let bgImage;
+	export let bgImage, title;
 </script>
 
 <section class="flex h-screen flex-col">
-	<div style='background-image: url({bgImage});' class="container-text px-10 font-black ">
-		Eco <br /> Bunt
+	<div style="background-image: url({bgImage});" class="container-text px-10 font-black ">
+		<h2 class="text-white">{title}</h2>
 	</div>
 </section>
 
@@ -20,15 +20,16 @@
 
 	.container-text {
 		z-index: 0;
-
 		-webkit-text-fill-color: transparent;
 		-webkit-background-clip: text;
-		color: #ffffff;
 		padding-top: 20px;
-		font-size: 280px;
-		line-height: 0.7;
 		text-align: end;
 		/* font-family: 'Bungee', cursive; */
 		animation: filling 3s ease forwards;
+	}
+
+	h2 {
+		font-size: 140px;
+		line-height: 1;
 	}
 </style>
