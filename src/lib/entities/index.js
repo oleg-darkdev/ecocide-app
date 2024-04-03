@@ -1,7 +1,5 @@
-// import from './ui/';
+import ScenarioСard from './ui/landing/ScenarioСard.svelte';
+import OrganisationCard from './ui/landing/OrganisationCard.svelte';
 
 
-
-// export {
-
-// };
+export { ScenarioСard, OrganisationCard };
