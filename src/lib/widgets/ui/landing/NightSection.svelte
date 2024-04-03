@@ -1,9 +1,11 @@
-<section class="background-container extra-rounded h-[80vh]  bg-black ">
+<section class="background-container extra-rounded h-[90vh]  bg-black ">
 	<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="" />
 	<div class="stars" />
 	<div class="twinkling" />
 	<div class="clouds" />
 </section>
+
+<!-- <div class="relative h-[250px] w-full max-w-6xl bg-white  mb-40"><slot /></div> -->
 
 <style>
 	@keyframes move-background {

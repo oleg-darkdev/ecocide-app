@@ -1,6 +1,6 @@
 <section class="h-screen flex flex-col">
 	<div class="container-text px-10 font-black ">
-		Eco <br /> Bunt
+		Eco <br /> Cide
 	</div>
 
 	<svg x="0" y="0" width="258" height="258">

@@ -1,8 +1,8 @@
-<section class="h-[80vh] w-full">
-	<div class="extra-bdr wrap h-full w-full max-w-6xl mx-auto">
-		<div class="extra-bdr center h-full w-full max-w-6xl mx-auto">
+<section class="h-[90vh] w-full">
+	<div class="extra-bdr wrap mx-auto h-full w-full max-w-6xl">
+		<!-- <div class="extra-bdr center mx-auto h-full w-full max-w-6xl">
 			<h1>Background Animation</h1>
-		</div>
+		</div> -->
 	</div>
 </section>
 
@@ -46,7 +46,7 @@
 		}
 	}
 
-	.center {
+	/* .center {
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -56,7 +56,5 @@
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background: rgba(75, 75, 250, 0.3);
-		/* border-radius: 3px; */
-	}
+	} */
 </style>

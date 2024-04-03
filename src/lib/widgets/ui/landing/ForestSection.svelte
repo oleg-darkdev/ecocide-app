@@ -1,11 +1,11 @@
 <script>
 </script>
 
-<section class="h-[80vh] w-full">
+<section class="h-[90vh] w-full">
 	<header class=" mx-auto h-full w-full  max-w-6xl">
 		<div class="overlay">
 			<div class="parallax">
-				<h1>Forest<span>Parallax</span><span>Scrolling & Mousemove</span></h1>
+				<h2 class='text-[8rem] font-black text-neutral-100'>Save our planet</h2>
 				<div class="one" />
 				<div class="two" />
 				<div class="three" />
@@ -17,10 +17,8 @@
 </section>
 
 <style>
-	
-
 	header {
-    border-radius: 5rem 5rem 0 0  ;
+		border-radius: 5rem 5rem 0 0;
 		position: relative;
 		margin-top: -20vh;
 		overflow: hidden;
@@ -38,7 +36,8 @@
 		height: 100%;
 		/* border-radius: 2%; */
 	}
-	header .overlay h1 {
+	header .overlay h2 {
+    line-height: 0.8;
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -47,18 +46,16 @@
 		margin: 0;
 		text-transform: uppercase;
 		text-align: center;
-		font-size: 14vw;
-		color: lightblue;
 		mix-blend-mode: screen;
 		opacity: 0.78;
 	}
 	@media (max-width: 768px) {
-		header .overlay h1 {
+		header .overlay h2 {
 			font-size: 4rem;
 		}
 	}
 	@media (max-height: 500px) {
-		header .overlay h1 {
+		header .overlay h2 {
 			font-size: 6rem;
 		}
 	}
