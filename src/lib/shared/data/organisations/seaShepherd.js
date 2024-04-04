@@ -2,8 +2,7 @@ const data = {
 	officialSite: 'https://seashepherd.org/',
 	yearOfFoundation: 1977,
 	logo: 'sea_shepherd.jpg',
-	tags: ['marine', 'sea', 'seal hunting', 'fishing'],
-
+	tags: ['marine', 'ocean', 'seal hunting', 'fishing'],
 	goals: ['Marine conservation activism.'],
 	title: 'Sea Shepherd Conservation Society or Sea Shepherd',
 	abbr: 'SCSS',
