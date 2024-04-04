@@ -2,10 +2,10 @@
 </script>
 
 <section class="h-[90vh] w-full">
-	<header class=" mx-auto h-full w-full  max-w-6xl">
+	<div class="wrap mx-auto h-full w-full  max-w-6xl">
 		<div class="overlay">
 			<div class="parallax">
-				<h2 class='text-[8rem] font-black text-neutral-100'>Save our planet</h2>
+				<h2 class='text-[7rem] font-black text-neutral-100'>Please, stand up for our planet</h2>
 				<div class="one" />
 				<div class="two" />
 				<div class="three" />
@@ -13,11 +13,11 @@
 				<div class="five" />
 			</div>
 		</div>
-	</header>
+	</div>
 </section>
 
 <style>
-	header {
+	.wrap {
 		border-radius: 5rem 5rem 0 0;
 		position: relative;
 		margin-top: -20vh;
@@ -28,7 +28,7 @@
 		background-color: #476052;
 		z-index: 1;
 	}
-	header .overlay {
+	div .overlay {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -36,10 +36,10 @@
 		height: 100%;
 		/* border-radius: 2%; */
 	}
-	header .overlay h2 {
+	div .overlay h2 {
     line-height: 0.8;
 		position: absolute;
-		top: 50%;
+		top: 60%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		z-index: 4;
@@ -50,31 +50,31 @@
 		opacity: 0.78;
 	}
 	@media (max-width: 768px) {
-		header .overlay h2 {
+		div .overlay h2 {
 			font-size: 4rem;
 		}
 	}
 	@media (max-height: 500px) {
-		header .overlay h2 {
+		div .overlay h2 {
 			font-size: 6rem;
 		}
 	}
-	header .overlay h1 span {
+	div .overlay h2 span {
 		display: block;
 		letter-spacing: 5px;
 		font-size: 2vw;
 	}
 	@media (max-width: 768px) {
-		header .overlay h1 span {
+		div .overlay h2 span {
 			font-size: 1.25rem;
 		}
 	}
-	header .parallax {
+	div .parallax {
 		position: relative;
 		width: 100%;
 		height: 100%;
 	}
-	header .parallax div {
+	div .parallax div {
 		position: absolute;
 		bottom: -15px;
 		left: -15px;
@@ -86,29 +86,29 @@
 		transition: transform 200ms ease;
 	}
 	@media (max-height: 600px) {
-		header .parallax div {
+		div .parallax div {
 			background-size: 100%;
 		}
 	}
-	header .parallax .one {
+	div .parallax .one {
 		background-image: url('https://tornis.robbowen.digital/img/mist.png');
 		z-index: 4;
 		animation: side 25s linear infinite;
 	}
-	header .parallax .two {
+	div .parallax .two {
 		background-image: url('https://tornis.robbowen.digital/img/tree_top.png');
 		z-index: 3;
 	}
-	header .parallax .three {
+	div .parallax .three {
 		background-image: url('https://tornis.robbowen.digital/img/mist.png');
 		z-index: 2;
 		animation: side 25s linear 5s infinite;
 	}
-	header .parallax .four {
+	div .parallax .four {
 		background-image: url('https://tornis.robbowen.digital/img/tree_mid.png');
 		z-index: 1;
 	}
-	header .parallax .five {
+	div .parallax .five {
 		background-image: url('https://tornis.robbowen.digital/img/tree_base.jpg');
 		z-index: 0;
 	}
