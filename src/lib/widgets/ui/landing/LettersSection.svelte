@@ -1,6 +1,6 @@
 <section class="h-screen flex flex-col">
 	<div class="container-text px-10 font-black ">
-		Eco <br /> Cide
+		<span style='letter-spacing: 5px;'>Eco</span> <br /> <span style='letter-spacing: 18px;'>Cide</span>
 	</div>
 
 	<svg x="0" y="0" width="258" height="258">
@@ -116,8 +116,8 @@
 		width: 258px;
 		height: 258px;
     position: absolute;
-		left: 62%;
-		top: 24%;
+		left: 60.5%;
+		top: 26.5%;
 		transform: translate(-50%, -50%);
 	}
 
@@ -152,7 +152,8 @@
 		color: #ffffff;
 		padding-top: 20px;
 		font-size: 280px;
-		line-height: 0.7;
+		line-height: 0.8;
+    /* letter-spacing: 0.1em; */
 		text-align: end;
 		/* font-family: 'Bungee', cursive; */
 		animation: filling 3s ease forwards;
