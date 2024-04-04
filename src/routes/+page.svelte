@@ -9,7 +9,9 @@
 		LettersSection,
 		SkySection,
 		NightSection,
+    ForestTeamSection,
 		ContentSection,
+    TeamSection,
 		Slider,
 		HorrorLetter
 	} from '$lib/widgets';
@@ -47,11 +49,9 @@
 				</div>
 			</div>
 
-			<!-- <div class="flex flex-row justify-between"> -->
 			{#each scenarius as scenario}
 				<ScenarioСard {scenario} />
 			{/each}
-			<!-- </div> -->
 		</div>
 	</section>
 </ContentSection>
@@ -84,14 +84,32 @@
 	</section>
 </ContentSection>
 
-<NightSection />
+
+<!-- <div class="card bg-primary text-white text-center p-4 border-0 two">
+      <blockquote class="blockquote mb-0">
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+        <footer class="blockquote-footer text-white"><small>Someone famous in
+            <cite title="Source Title"> Source Title</cite></small></footer>
+      </blockquote>
+    </div>
+
+
+https://codepen.io/hluebbering/pen/xxJeVZL
+  -->
+<!-- <NightSection /> -->
+<!-- https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png -->
+
+<ForestTeamSection />
 
 <ContentSection>
 	<Heading
-		title="Night activism"
-		bgImage={'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png'}
+		title="Our forest team"
+		bgImage={'https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg'}
 	/>
+	<h2>sdjhkjdhjk</h2>
+  <TeamSection />
 	<HorrorLetter />
 </ContentSection>
+
 
 <ForestSection />
