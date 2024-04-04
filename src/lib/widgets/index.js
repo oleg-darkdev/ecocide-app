@@ -7,10 +7,14 @@ import ContentSection from './ui/landing/ContentSection.svelte';
 import Heading from './ui/landing/Heading.svelte';
 import HorrorLetter from './ui/landing/HorrorLetter.svelte';
 import Slider from './ui/landing/Slider.svelte';
+import TeamSection from './ui/landing/TeamSection.svelte';
+import ForestTeamSection from './ui/landing/ForestTeamSection.svelte';
 
 export {
-	Hero,
-	LettersSection,
+  Hero,
+  ForestTeamSection,
+  LettersSection,
+  TeamSection,
 	NightSection,
 	SkySection,
 	ForestSection,
