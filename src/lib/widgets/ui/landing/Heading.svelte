@@ -26,6 +26,7 @@
 		text-align: end;
 		/* font-family: 'Bungee', cursive; */
 		animation: filling 3s ease forwards;
+		filter: grayscale(100%);
 	}
 
 	h2 {

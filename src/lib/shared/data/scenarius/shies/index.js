@@ -17,7 +17,7 @@ const data = {
 	title: 'Stop Shies!',
 	tags: ['garbage', 'russia', 'toxic'],
 
-	icon: 'tree.svg',
+	icon: 'toxic.svg',
 	shortDesc: `Block the building of a garbage landfill from which toxins can enter the world's oceans, through northern rivers to Russia.`,
 	// 		'Блокирование строительства мусорного полигона с которого токсины могут попасть в мировой океан, через северные реки попасть России.',
 

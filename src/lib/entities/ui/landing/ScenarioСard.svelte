@@ -1,14 +1,12 @@
 <script>
 	export let scenario;
 
-	console.log(scenario);
-
 	// title shortDesc, place: {
 	//   title: coordinates: [Array], link: ''
 </script>
 
 <div
-	class="group p-2 hover:bg-neutral-100  rounded-md mx-auto my-10 flex max-w-7xl flex-col items-center border-b border-gray-200 pb-10 sm:flex-row"
+	class="group mx-auto my-10  flex max-w-7xl flex-col items-center rounded-md border-b border-gray-200 p-2 pb-10 hover:bg-neutral-100 sm:flex-row"
 >
 	<div
 		class="inline-flex h-20 w-20 flex-shrink-0 items-center justify-center rounded-full bg-gray-50 text-neutral-600 sm:mr-10"
@@ -31,5 +29,3 @@
 		</p>
 	</div>
 </div>
-
-

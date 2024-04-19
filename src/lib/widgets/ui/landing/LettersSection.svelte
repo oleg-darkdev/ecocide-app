@@ -1,6 +1,6 @@
 <section class="h-screen flex flex-col">
-	<div class="container-text px-10 font-black ">
-		<span style='letter-spacing: 5px;'>Eco</span> <br /> <span style='letter-spacing: 18px;'>Cide</span>
+	<div class="container-text m-auto font-black ">
+		<span class='text-end' style='letter-spacing: 5px;'>Eco</span> <br /> <span style='letter-spacing: 18px;'>Cide</span>
 	</div>
 
 	<svg x="0" y="0" width="258" height="258">
@@ -116,13 +116,13 @@
 		width: 258px;
 		height: 258px;
     position: absolute;
-		left: 60.5%;
-		top: 26.5%;
+		left: 65.5%;
+		top: 56.5%;
 		transform: translate(-50%, -50%);
 	}
 
 	.tree {
-		fill: #e73e0d;
+		fill: #042f2e;
 	}
 
 	.circle-mask {
@@ -146,7 +146,7 @@
 
 	.container-text {
 		z-index: 99;
-		background-image: url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
+		background-image: url(/images/bg/main.jpeg);
 		-webkit-text-fill-color: transparent;
 		-webkit-background-clip: text;
 		color: #ffffff;
@@ -154,7 +154,7 @@
 		font-size: 280px;
 		line-height: 0.8;
     /* letter-spacing: 0.1em; */
-		text-align: end;
+		/* text-align: center; */
 		/* font-family: 'Bungee', cursive; */
 		animation: filling 3s ease forwards;
 	}

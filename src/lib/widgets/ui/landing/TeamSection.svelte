@@ -1,24 +1,20 @@
 <script>
 	import { TeamMemberCard } from '$lib/entities';
 
-	const teamMembers = [{}, {}];
+	import { teamMembers } from '$lib/shared';
 </script>
 
-<section class="container mx-auto px-6 py-10">
-	<h1
-		class="text-center text-2xl font-semibold capitalize text-gray-800 dark:text-white lg:text-3xl"
-	>
-		our team
-	</h1>
-
-	<p class="mx-auto my-6 max-w-2xl text-center text-gray-500 dark:text-gray-300">
+<section class="container mx-auto px-6 pt-10">
+	<p class="mx-auto my-6 max-w-2xl text-center text-gray-500 ">
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt ex placeat modi magni
 		quia error alias, adipisci rem similique, at omnis eligendi optio eos harum.
 	</p>
 
+	<a name="team" />
+
 	<div class="flex items-center justify-center">
-		<div class="flex items-center rounded-xl border border-blue-600 p-1 dark:border-blue-400">
-			darkdev_brand@riseup.net
+		<div class="flex items-center rounded-2xl border border-neutral-600 bg-teal-800 px-4 py-4">
+			<span class="text-xl text-white">darkdev_brand@riseup.net</span>
 		</div>
 	</div>
 
@@ -28,3 +24,6 @@
 		{/each}
 	</div>
 </section>
+
+<style>
+</style>

@@ -13,111 +13,81 @@
 			});
 		});
 	});
-</script>
-<section>
 
-<div class="options">
-	<div
-		class="option active"
-		style="--optionBackground:url(https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg);"
-	>
-		<div class="shadow" />
-		<div class="label">
-			<div class="icon">
-				<i class="fas fa-walking" />
+	const navData = [
+		{
+			title: 'About',
+			desc: '',
+			link: '#about',
+			img: 'main.jpeg'
+		},
+		{
+			title: 'Eco activism',
+			desc: '',
+			link: '#activism',
+			img: 'sky.jpeg'
+		},
+
+		{
+			title: 'Our team',
+			desc: '',
+			link: '#team',
+			img: '4.jpg'
+		},
+		{
+			title: 'Our shop',
+			desc: '',
+			link: '/',
+			img: '5.jpg'
+		},
+		{
+			title: 'Application',
+			desc: '',
+			link: '/',
+			img: '7.jpg'
+		}
+	];
+
+	let activeInd = 0;
+</script>
+
+<section class="min-h-[50vh]  ">
+	<div class="options ">
+		{#each navData as nav, i}
+			<div
+				class="option {activeInd == i ? 'active ' : 'grayscale filter'} "
+				style="--optionBackground:url(/images/bg/{nav.img});"
+				on:click={() => (activeInd = i)}
+			>
+				<div class="shadow" />
+				<div class="label">
+					<div class="icon bg-white">
+						<i class="fas fa-walking" />
+					</div>
+					<div class="info">
+						<div>
+							<a href={nav.link} class="text-4xl font-black text-white">{nav.title}</a>
+						</div>
+						<!-- <div class="sub">{nav.desc}</div> -->
+					</div>
+				</div>
 			</div>
-			<div class="info">
-				<div class="main">Blonkisoaz</div>
-				<div class="sub">Omuke trughte a otufta</div>
-			</div>
-		</div>
+		{/each}
 	</div>
-	<div
-		class="option"
-		style="--optionBackground:url(https://66.media.tumblr.com/8b69cdde47aa952e4176b4200052abf4/tumblr_o51p7mFFF21qho82wo1_1280.jpg);"
-	>
-		<div class="shadow" />
-		<div class="label">
-			<div class="icon">
-				<i class="fas fa-snowflake" />
-			</div>
-			<div class="info">
-				<div class="main">Oretemauw</div>
-				<div class="sub">Omuke trughte a otufta</div>
-			</div>
-		</div>
-	</div>
-	<div
-		class="option"
-		style="--optionBackground:url(https://66.media.tumblr.com/5af3f8303456e376ceda1517553ba786/tumblr_o4986gakjh1qho82wo1_1280.jpg);"
-	>
-		<div class="shadow" />
-		<div class="label">
-			<div class="icon">
-				<i class="fas fa-tree" />
-			</div>
-			<div class="info">
-				<div class="main">Iteresuselle</div>
-				<div class="sub">Omuke trughte a otufta</div>
-			</div>
-		</div>
-	</div>
-	<div
-		class="option"
-		style="--optionBackground:url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg);"
-	>
-		<div class="shadow" />
-		<div class="label">
-			<div class="icon">
-				<i class="fas fa-tint" />
-			</div>
-			<div class="info">
-				<div class="main">Idiefe</div>
-				<div class="sub">Omuke trughte a otufta</div>
-			</div>
-		</div>
-	</div>
-	<div
-		class="option"
-		style="--optionBackground:url(https://66.media.tumblr.com/f19901f50b79604839ca761cd6d74748/tumblr_o65rohhkQL1qho82wo1_1280.jpg);"
-	>
-		<div class="shadow" />
-		<div class="label">
-			<div class="icon">
-				<i class="fas fa-sun" />
-			</div>
-			<div class="info">
-				<div class="main">Inatethi</div>
-				<div class="sub">Omuke trughte a otufta</div>
-			</div>
-		</div>
-	</div>
-</div>
 </section>
 
-
 <style>
-
-
 	section {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
 		overflow: hidden;
-		height: 100vh;
-		font-family: 'Roboto', sans-serif;
+
 		transition: 0.25s;
 	}
 
-	@media (prefers-color-scheme: dark) {
-		:not(.light) {
-			background: #232223;
-			color: white;
-		}
-	}
-	
-	 .options {
+	.options {
 		display: flex;
 		flex-direction: row;
 		align-items: stretch;
@@ -128,38 +98,38 @@
 		height: 400px;
 	}
 	@media screen and (max-width: 718px) {
-		 .options {
+		.options {
 			min-width: 520px;
 		}
-		 .options .option:nth-child(5) {
+		.options .option:nth-child(5) {
 			display: none;
 		}
 	}
 	@media screen and (max-width: 638px) {
-		 .options {
+		.options {
 			min-width: 440px;
 		}
-		 .options .option:nth-child(4) {
+		.options .option:nth-child(4) {
 			display: none;
 		}
 	}
 	@media screen and (max-width: 558px) {
-		 .options {
+		.options {
 			min-width: 360px;
 		}
-		 .options .option:nth-child(3) {
+		.options .option:nth-child(3) {
 			display: none;
 		}
 	}
 	@media screen and (max-width: 478px) {
-		 .options {
+		.options {
 			min-width: 280px;
 		}
-		 .options .option:nth-child(2) {
+		.options .option:nth-child(2) {
 			display: none;
 		}
 	}
-	 .options .option {
+	.options .option {
 		position: relative;
 		overflow: hidden;
 		min-width: 60px;
@@ -168,80 +138,64 @@
 		background-size: auto 120%;
 		background-position: center;
 		cursor: pointer;
-		transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+		transition: 0.75s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 	}
-	 .options .option:nth-child(1) {
-		--defaultBackground: #ed5565;
-	}
-	 .options .option:nth-child(2) {
-		--defaultBackground: #fc6e51;
-	}
-	 .options .option:nth-child(3) {
-		--defaultBackground: #ffce54;
-	}
-	 .options .option:nth-child(4) {
-		--defaultBackground: #2ecc71;
-	}
-	 .options .option:nth-child(5) {
-		--defaultBackground: #5d9cec;
-	}
-	 .options .option:nth-child(6) {
-		--defaultBackground: #ac92ec;
-	}
-	 .options .option.active {
+
+	.options .option.active {
 		flex-grow: 10000;
 		transform: scale(1);
 		max-width: 600px;
 		margin: 0px;
 		border-radius: 40px;
 		background-size: auto 100%;
-		/*&:active {
-     transform:scale(0.9);
-  }*/
 	}
-	 .options .option.active .shadow {
+
+	.options .option.active:active {
+		transform: scale(0.9);
+	}
+	.options .option.active .shadow {
 		box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black;
 	}
-	 .options .option.active .label {
+	.options .option.active .label {
 		bottom: 20px;
 		left: 20px;
 	}
-	 .options .option.active .label .info > div {
-		left: 0px;
+	.options .option.active .label .info > div {
+		right: 30px;
 		opacity: 1;
 	}
-	 .options .option:not(.active) {
+	.options .option:not(.active) {
 		flex-grow: 1;
 		border-radius: 30px;
 	}
-	 .options .option:not(.active) .shadow {
+	.options .option:not(.active) .shadow {
 		bottom: -40px;
 		box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black;
 	}
-	 .options .option:not(.active) .label {
+	.options .option:not(.active) .label {
 		bottom: 10px;
 		left: 10px;
 	}
-	 .options .option:not(.active) .label .info > div {
+	.options .option:not(.active) .label .info > div {
 		left: 20px;
 		opacity: 0;
 	}
-	 .options .option .shadow {
+	.options .option .shadow {
 		position: absolute;
 		bottom: 0px;
 		left: 0px;
 		right: 0px;
 		height: 120px;
-		transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+		transition: 0.75s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 	}
-	 .options .option .label {
+	.options .option .label {
 		display: flex;
 		position: absolute;
 		right: 0px;
 		height: 40px;
-		transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+		transition: 0.75s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 	}
-	 .options .option .label .icon {
+	.options .option .label .icon {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
@@ -250,26 +204,17 @@
 		max-width: 40px;
 		height: 40px;
 		border-radius: 100%;
-		background-color: white;
 		color: var(--defaultBackground);
 	}
-	 .options .option .label .info {
+	.options .option .label .info {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		margin-left: 10px;
-		color: white;
 		white-space: pre;
 	}
-	 .options .option .label .info > div {
+	.options .option .label .info > div {
 		position: relative;
-		transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
-	}
-	 .options .option .label .info .main {
-		font-weight: bold;
-		font-size: 1.2rem;
-	}
-	 .options .option .label .info .sub {
-		transition-delay: 0.1s;
+		transition: 0.75s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.7s ease-out;
 	}
 </style>

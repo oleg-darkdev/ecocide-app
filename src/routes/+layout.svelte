@@ -1,19 +1,24 @@
-<script>
-	import '../app.css';
-	import 'aos/dist/aos.css';
-	import AOS from 'aos';
-	import { onMount } from 'svelte';
-	onMount(() => {
-		AOS.init();
-	});
+<script lang="ts">
+	import '../app.postcss';
+
+	import { language } from '@inlang/sdk-js';
+	import { LocaleSwitcher } from '$shared/';
+
+	export let data;
 </script>
 
-<main class="">
+<!-- <a href="/{language}">
+		<h1>Home</h1>
+	</a> -->
+
+<LocaleSwitcher />
+
+<main class="bg-neutral-100">
 	<slot />
 </main>
 
 <style>
-:global(.extra-bdr) {
-  border-radius: 5rem;
-}
+	:global(.extra-bdr) {
+		border-radius: 5rem;
+	}
 </style>

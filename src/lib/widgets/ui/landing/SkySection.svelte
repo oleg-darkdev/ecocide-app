@@ -1,14 +1,12 @@
 <section class="h-[90vh] w-full">
-	<div class="extra-bdr wrap mx-auto h-full w-full max-w-6xl">
-		<!-- <div class="extra-bdr center mx-auto h-full w-full max-w-6xl">
-			<h1>Background Animation</h1>
-		</div> -->
-	</div>
+	<div
+		class="extra-bdr wrap mx-auto h-full w-full  max-w-6xl  grayscale filter filter hover:filter-none"
+	/>
 </section>
 
 <style>
 	.wrap {
-		background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+		background-image: url('/images/bg/sky.jpeg');
 		background-size: cover;
 		-webkit-animation: slidein 100s;
 		animation: slidein 100s;
