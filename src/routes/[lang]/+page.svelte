@@ -38,7 +38,7 @@
 <!-- <Slider /> -->
 
 <ContentSection>
-	<Heading title="About" bgImage={'/images/bg/main.jpeg'} />
+	<Heading title="O projekcie" bgImage={'/images/bg/main.jpeg'} />
 
 	<AboutSection />
 </ContentSection>
@@ -46,7 +46,7 @@
 <SkySection />
 
 <ContentSection>
-	<Heading title="Eco activism" bgImage={'/images/bg/sky.jpeg'} />
+	<Heading title="O aktywizmie" bgImage={'/images/bg/sky.jpeg'} />
 	<ActivismSection />
 </ContentSection>
 
@@ -61,7 +61,7 @@ https://codepen.io/hluebbering/pen/xxJeVZL
 <ForestSection />
 
 <ContentSection>
-	<Heading title="Our forest team" bgImage={'/images/bg/1.jpg'} />
+	<Heading title="Nasz zespół leśny" bgImage={'/images/bg/1.jpg'} />
 	<TeamSection />
 	<HorrorLetter />
 </ContentSection>
