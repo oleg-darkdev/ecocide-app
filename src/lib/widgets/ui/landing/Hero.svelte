@@ -77,6 +77,12 @@
 </section>
 
 <style>
+	/* @media screen and (max-width: 600px) {
+		section {
+			display: none;
+		}
+} */
+
 	section {
 		display: flex;
 		flex-direction: row;
