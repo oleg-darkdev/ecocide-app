@@ -1,4 +1,4 @@
-<section class="h-screen flex flex-col">
+<section class="wrap flex flex-col">
 	<div class="container-text m-auto font-black ">
 		<span class='text-end' style='letter-spacing: 5px;'>Eco</span> <br /> <span style='letter-spacing: 18px;'>Cide</span>
 	</div>
@@ -111,6 +111,10 @@
 		}
 	}
 
+  .wrap {
+    height: 100vh;
+  }
+
 	svg {
 		display: block;
 		width: 258px;
@@ -158,4 +162,36 @@
 		/* font-family: 'Bungee', cursive; */
 		animation: filling 3s ease forwards;
 	}
+
+
+  @media screen and (max-width: 600px) {
+.container-text {
+		z-index: 99;
+		background-image: url(/images/bg/main.jpeg);
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		color: #ffffff;
+		padding-top: 20px;
+		font-size: 100px;
+		line-height: 0.8;
+    /* letter-spacing: 0.1em; */
+		/* text-align: center; */
+		/* font-family: 'Bungee', cursive; */
+		animation: filling 3s ease forwards;
+	}
+
+  .wrap {
+    height: 40vh;
+  }
+
+  svg {
+		display: block;
+		width: 258px;
+		height: 258px;
+    position: absolute;
+		left: 77%;
+		top: 20.5%;
+		transform: translate(-50%, -50%);
+	}
+}
 </style>
