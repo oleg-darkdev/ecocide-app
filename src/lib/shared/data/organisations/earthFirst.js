@@ -7,7 +7,7 @@ const data = {
 	yearsofActivity: 'present',
 	philosophy: '',
 	yearOfFoundation: 1980,
-	logo: 'earthFirst.png',
+	logo: 'earthFirst.svg',
 	shortDesc: '',
 	officialSite: 'https://earthfirstjournal.news/',
 
