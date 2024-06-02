@@ -2,7 +2,7 @@
 	export let organisation;
 </script>
 
-<div class="card mx-1">
+<div class="card mx-1  hover:-translate-y-1  hover:transition hover:duration-1000 hover:ease-in-out">
 	<img src="/images/organisations/{organisation.logo}" class="card__image" alt="" />
 	<div class="card__overlay  flex flex-col text-left">
 		<div class="card__header">
@@ -26,7 +26,7 @@
 
 <style>
 	:root {
-		--surface-color: #fff;
+		--surface-color: #115e59;
 		--curve: 40;
 	}
 
@@ -34,6 +34,7 @@
 		position: relative;
 		display: block;
 		height: 100%;
+		width: 370px;
 		border-radius: calc(var(--curve) * 1px);
 		overflow: hidden;
 		text-decoration: none;
@@ -42,7 +43,8 @@
 	.card__image {
 		width: 100%;
 		/* height: auto; */
-    min-height: 300px;
+    height: 450px;
+
 	}
 
 	.card__overlay {
