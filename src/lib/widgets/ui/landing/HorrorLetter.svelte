@@ -1,8 +1,8 @@
 <script>
 </script>
 
-<div class="flex  h-full">
-	<div class="max-w-2xl blockquote text-teal-800">
+<div class="flex px-2  h-full">
+	<div class="max-w-2xl text-center blockquote text-teal-800">
 		<h2>
 			"Here, in the forest,<br />dark and deep,<br />I offer you,<br />eternal sleep."
 		</h2>
@@ -60,7 +60,7 @@
 		position: absolute;
 		content: '”';
 		color: #042f2e;
-		font-size: 20rem;
+		font-size: 14rem;
 		line-height: 0;
 		bottom: -43px;
 		right: 30px;
@@ -71,6 +71,16 @@
 		.blockquote h2 {
 			font-size: 60px;
 		}
+
+		.blockquote:after {
+		position: absolute;
+		content: '”';
+		color: #042f2e;
+		font-size: 20rem;
+		line-height: 0;
+		bottom: -43px;
+		right: 30px;
+	}
 	}
 
 	/* Blockquote subheader */
