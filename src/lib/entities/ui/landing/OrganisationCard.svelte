@@ -2,7 +2,7 @@
 	export let organisation;
 </script>
 
-<div class="card mx-1  hover:-translate-y-1  hover:transition hover:duration-1000 hover:ease-in-out">
+<div class="card my-2 mx-2 text-neutral-100 hover:-translate-y-1  hover:transition hover:duration-1000 hover:ease-in-out">
 	<img src="/images/organisations/{organisation.logo}" class="card__image" alt="" />
 	<div class="card__overlay  flex flex-col text-left">
 		<div class="card__header">

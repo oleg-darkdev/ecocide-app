@@ -12,7 +12,7 @@
 Мы верим, что только вместе, объединив усилия, мы сможем добиться реальных изменений. Игра, которую мы создали — это наш вклад в это великое дело. Мы приглашаем вас присоединиться к нам и стать частью экологического движения, играя и внося свой вклад вместе с нами.
  -->
 <section class="container mx-auto lg:px-6 pt-10">
-  <div class="prose  prose-blue mx-auto flex w-full max-w-2xl flex-col text-left">
+  <div class="prose text-neutral-600 prose-blue mx-auto flex w-full max-w-2xl flex-col text-left">
 			<div class="px-2  w-full">
 				<!-- <h1>Nasz świat się zmienia i każdy z nas odczuwa te zmiany.</h1>
 				<h2>

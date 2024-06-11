@@ -18,10 +18,10 @@
 	<div class=" mx-auto flex max-w-7xl flex-col items-center px-1 py-8 sm:px-6">
 		<a name="about" />
 
-		<div class="prose prose-blue mx-auto flex w-full max-w-2xl flex-col text-left">
+		<div class="prose text-neutral-600 prose-blue mx-auto flex w-full max-w-2xl flex-col text-left">
 			<div class="px-2 w-full">
-				<h1>Nasz świat się zmienia i każdy z nas odczuwa te zmiany.</h1>
-				<h2>
+				<h1 class='text-neutral-500'>Nasz świat się zmienia i każdy z nas odczuwa te zmiany.</h1>
+				<h2 class='text-neutral-500'>
 					To nie tylko edukacyjna gra planszowa wzbogacona o aplikację internetową - to szansa na
 					zrozumienie.
 				</h2>
@@ -46,9 +46,9 @@
 		</div>
 		<AntiSystemsProjectCard />
 
-		<div class="prose prose-blue -mb-4 mt-14 flex w-full max-w-3xl flex-col text-left">
+		<div class="prose prose-blue mb-6 mt-14 flex w-full max-w-3xl flex-col text-left">
 			<!-- <div class="mx-auto w-full"> -->
-			<h2 class='text-center'>Historie protestów ekologicznych - dostępnych w grze.</h2>
+			<h2 class='text-center text-[#115e59]'>Historie protestów ekologicznych - dostępnych w grze.</h2>
 
 			<!-- </div> -->
 		</div>

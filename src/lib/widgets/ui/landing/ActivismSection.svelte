@@ -15,10 +15,10 @@
 	<div class=" mx-auto flex max-w-7xl flex-col items-center px-1 py-8 sm:px-6 ">
 		<a name="activism" />
 
-		<div class="prose-blue prose mx-auto flex w-full max-w-2xl flex-col text-left">
+		<div class="prose-blue text-neutral-600 prose mx-auto flex w-full max-w-2xl flex-col text-left">
 			<div class="px-2  w-full">
-				<h1>Aktywizm ekologiczny jest siłą, która zmienia świat.</h1>
-				<h2>O aktywizmie ekologicznym jako zjawisku w historii ludzkości.</h2>
+				<h1 class='text-neutral-500'>Aktywizm ekologiczny jest siłą, która zmienia świat.</h1>
+				<h2 class='text-neutral-500'>O aktywizmie ekologicznym jako zjawisku w historii ludzkości.</h2>
 				<p>
 					Od dziesięcioleci wiele organizacji, takich jak Sea Shepherd, Extinction Rebellion, Earth First!, Rainbow Keepers, Animal Liberation Front, Earth Liberation Front, Last Generation i wiele innych walczy o naszą wspólną przyszłość.
 				</p>
@@ -31,7 +31,7 @@
         
 			</div>
 		</div>
-		<div class="flex flex-row flex-wrap">
+		<div class="flex flex-row flex-wrap justify-center items-center">
 			{#each organisations as organisation}
 				<OrganisationCard {organisation} />
 			{/each}
