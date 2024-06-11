@@ -51,7 +51,7 @@
 	let activeInd = 0;
 </script>
 
-<section class="min-h-[50vh]  ">
+<section class="mt-20 min-h-[50vh]  ">
 	<div class="options ">
 		{#each navData as nav, i}
 			<div

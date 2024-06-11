@@ -5,7 +5,7 @@
 <div class="flex flex-col " data-aos="fade-up" data-aos-mirror="false"
     data-aos-once="false">
 	<div style="background-image: url({bgImage});" class="container-text px-10 font-black ">
-		<h2 class="title">{title}</h2>
+		<h2 class="title ">{title}</h2>
 	</div>
 </div>
 

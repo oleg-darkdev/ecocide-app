@@ -55,7 +55,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #ff0000;
+  color: #cbd5e1;
 /*   margin: 0 auto; */
 }
 
@@ -109,21 +109,5 @@ body {
   position: relative;
   z-index: 1;
 }
-
-
-.test {
-  position: relative;
-  color: white;
-  top: -30px;
-  /* height: 100vh; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 45px;
-  color: #ff9605c4;
-}
+ 
 </style>
