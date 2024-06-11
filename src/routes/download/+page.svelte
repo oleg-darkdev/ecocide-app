@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import { Footer } from '$lib/widgets';
 </script>
 
@@ -73,4 +73,4 @@
 	</div>
 </section>
 
-<Footer />
+<Footer /> -->
