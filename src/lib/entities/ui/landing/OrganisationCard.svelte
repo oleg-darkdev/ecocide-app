@@ -3,7 +3,9 @@
 </script>
 
 <div class="card my-2 mx-2 text-neutral-100 hover:-translate-y-1  hover:transition hover:duration-1000 hover:ease-in-out">
-	<img src="/images/organisations/{organisation.logo}" class="card__image" alt="" />
+	<div class='h-[450px]'>
+		<img style="" src="/images/organisations/{organisation.logo}" class="card__image" alt="Organisation {organisation.title} logo" />
+	</div>
 	<div class="card__overlay  flex flex-col text-left">
 		<div class="card__header">
 			<svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
@@ -41,8 +43,8 @@
 
 	.card__image {
 		width: 100%;
-		/* height: auto; */
-    height: 450px;
+		height: auto;
+		/* height: 450px; */
 
 	}
 
