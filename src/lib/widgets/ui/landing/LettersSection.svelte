@@ -15,7 +15,7 @@
     </section> -->
   </div>
   <div class="image-container">
-    <img src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d13364599bb70e3560cc4e5_background-min%203.png" alt="image">
+    <img class='banner-img' src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d13364599bb70e3560cc4e5_background-min%203.png" alt="Animation image">
   </div>
 </div>
 
