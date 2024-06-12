@@ -1,15 +1,12 @@
 <script lang="ts">
 	import '../app.postcss';
-import 'aos/dist/aos.css';
+  import 'aos/dist/aos.css';
 	import AOS from 'aos';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
 		AOS.init();
 	});
-
-	import { language } from '@inlang/sdk-js';
-	import { LocaleSwitcher } from '$shared/';
 
 	export let data;
 </script>
