@@ -12,11 +12,13 @@ import ForestSection from './ui/landing/ForestSection.svelte';
 import ActivismSection from './ui/landing/ActivismSection.svelte';
 import AboutSection from './ui/landing/AboutSection.svelte';
 import Loader from './ui/landing/Loader.svelte';
+import Faq from './ui/landing/Faq.svelte';
 
 export {
 	Hero,
 	AboutSection,
-  Loader,
+	Loader,
+	Faq,
 	ActivismSection,
 	ForestSection,
 	LettersSection,

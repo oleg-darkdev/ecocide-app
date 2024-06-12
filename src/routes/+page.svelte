@@ -12,10 +12,33 @@
 		TeamSection,
 		ActivismSection,
 		Slider,
+		Faq,
 		HorrorLetter
 	} from '$widgets';
-	import { i } from '@inlang/sdk-js';
-	// import {HeadHrefLangs} from '$shared';
+
+
+	const faq = [
+		{
+			id: 0,
+			q: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard `,
+			a: [`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard `]
+		},
+		{
+			id: 0,
+			q: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard `,
+			a: [`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard `]
+		},
+		{
+			id: 0,
+			q: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard `,
+			a: [`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard `]
+		},
+		{
+			id: 0,
+			q: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard `,
+			a: [`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard `]
+		}
+	]
 </script>
 
 <!-- https://codepen.io/alvarotrigo/pen/KKvGNOj -->
@@ -23,12 +46,7 @@
 
 <svelte:head>
 	<title>Ecocide boardgame</title>
-	<!-- <HeadHrefLangs /> -->
 </svelte:head>
-
-<!-- `
-<h1 class="text-5xl font-extralight">{i('welcome')}</h1>
-<p>{@html i('description')}</p>` -->
 
 <LettersSection />
 
@@ -67,3 +85,5 @@ https://codepen.io/hluebbering/pen/xxJeVZL
 </ContentSection>
 
 <FooterSection />
+
+<Faq {faq}/>
