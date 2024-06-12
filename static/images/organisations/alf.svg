@@ -4,18 +4,18 @@
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 152 152"
 	 style="enable-background:new 0 0 152 152;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#115E59;stroke-width:9;}
+	.st0{fill:none;stroke:#115E59;stroke-width:6;}
 	.st1{enable-background:new    ;}
 	.st2{fill:#115E59;}
 </style>
 <g>
-	<circle class="st0" cx="76" cy="76" r="66.8"/>
-	<path class="st0" d="M24.3,118.3L76,14.5l51.7,103.8 M41.1,83H111"/>
+	<circle class="st0" cx="76" cy="76" r="51.1"/>
+	<path class="st0" d="M36.4,108.4L76,28.9l39.6,79.5 M49.3,81.4h53.5"/>
 	<g class="st1">
-		<path class="st2" d="M69.6,72.5v-26H73v22.9h12.8v3.1H69.6z"/>
+		<path class="st2" d="M71.1,73.3V53.4h2.6v17.5h9.8v2.4H71.1z"/>
 	</g>
 	<g class="st1">
-		<path class="st2" d="M69.9,124.9v-26h17.6v3.1H73.3v8.1h12.2v3.1H73.3V125L69.9,124.9L69.9,124.9z"/>
+		<path class="st2" d="M71.3,113.4V93.5h13.5v2.4H73.9v6.2h9.3v2.4h-9.3v9L71.3,113.4L71.3,113.4z"/>
 	</g>
 </g>
 </svg>
