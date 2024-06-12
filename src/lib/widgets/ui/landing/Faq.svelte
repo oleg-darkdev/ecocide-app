@@ -41,25 +41,27 @@
 
 
   <div class='max-w-lg pb-10 mx-auto px-2'>
-        <div class='w-full max-w-md mb-4'>
+        <div class='w-full max-w-md mb-4 mx-auto'>
           <p class='hover:scale-110 hover:transition hover:duration-1000  hover:ease-in-out text-center'>This is an open-source project, with <a class='font-bold' href="https://github.com/oleg-darkdev/ecocide_app" target='_blank'>open repository on github </a> and is distributed under a license <a class='font-bold' href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target='_blank'>CC BY-NC-SA</a>.</p>
         </div>
 
         <div class='w-full  lg:mb-4 xl:mb-4 md:mb-4 mb-6  '>
-          <p class='text-center hover:scale-110 hover:transition hover:duration-1000  hover:ease-in-out'>Author: <a class='font-bold' href="https://oleg-darkdev.vercel.app/" target='_blank'>Oleg DarkDEV</a></p>
+          <p class='text-center hover:scale-110 hover:transition hover:duration-1000  hover:ease-in-out'>Idea Author: <a class='font-bold' href="https://oleg-darkdev.vercel.app/" target='_blank'>Oleg DarkDEV</a></p>
         </div>
     
         <div class='w-full mb-6 flex flex-wrap flex-row lg:justify-between xl:justify-between md:justify-between justify-center mx-auto'>
             <div class='hover:scale-110 hover:transition hover:duration-1000  hover:ease-in-out'>
               <a class='' href="https://darkdev-foundation.vercel.app/" target='_blank'>
               <figure class=''>
-                <figcaption class='text-sm  '>Development by DarkDev.Foundation</figcaption>
+                <figcaption class='text-sm '>Development by DarkDev.Foundation</figcaption>
                 <img src="logos/darkdev.svg" class='h-16 transform-none scale-0' alt="DarkDEV logo" />
               </figure>
                </a>             
             </div>
-                <div class='w-1 bg-neutral-200 h-14 xl:flex lg:flex md:flex hidden my-auto'>
+            <div class='w-[60px]'>
+                <div class='w-1 mx-auto bg-neutral-200 h-14 xl:flex lg:flex md:flex hidden my-auto mx-auto'>
                 </div>
+              </div>
             <div class='mx-autohover:scale-110 hover:transition lg:mt-0 xl:mt-0 md:mt-0 mt-4 hover:duration-1000  hover:ease-in-out'>
               <a class='' href="https://44games.vercel.app/" target='_blank'>
               <figure class=''>
