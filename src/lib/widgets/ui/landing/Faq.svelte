@@ -9,11 +9,11 @@
   <div class='extra-bdr py-20 px-2 mx-auto flex flex-col justify-center max-w-4xl'>
     {#each faq as data}
         <div class='extra-bdr bg-neutral-100 my-4 py-3 px-4 max-w-4xl'>
-          <h3 on:click={()=> data.showData = !data.showData} class='flex flex-row justify-between items-center font-semibold p-3 cursor-pointer text-teal-800'> 
-            <span class='xl:text-center lg:text-center  md:text-center text-left xl:text-2xl lg:text-2xl md:text-2xl text-md'> 
-              {data.q} 
+          <h3 on:click={()=> data.showData = !data.showData} class='flex flex-row justify-between items-center font-semibold p-3 cursor-pointer text-teal-800'>
+            <span class='xl:text-center lg:text-center  md:text-center text-left xl:text-2xl lg:text-2xl md:text-2xl text-md'>
+              {data.q}
             </span>
-<!--                   
+<!--
  -->
             <svg
                   class:rotate-180={data.showData}
@@ -48,7 +48,7 @@
         <div class='w-full  lg:mb-4 xl:mb-4 md:mb-4 mb-6  '>
           <p class='text-center hover:scale-110 hover:transition hover:duration-1000  hover:ease-in-out'>Idea Author: <a class='font-bold' href="https://oleg-darkdev.vercel.app/" target='_blank'>Oleg DarkDEV</a></p>
         </div>
-    
+
         <div class='w-full mb-6 flex flex-wrap flex-row lg:justify-between xl:justify-between md:justify-between justify-center mx-auto'>
             <div class='hover:scale-110 hover:transition hover:duration-1000  hover:ease-in-out'>
               <a class='' href="https://darkdev-foundation.vercel.app/" target='_blank'>
@@ -56,10 +56,10 @@
                 <figcaption class='text-sm '>Development by DarkDev.Foundation</figcaption>
                 <img src="logos/darkdev.svg" class='h-16 transform-none scale-0' alt="DarkDEV logo" />
               </figure>
-               </a>             
+               </a>
             </div>
-            <div class='w-[60px]'>
-                <div class='w-1 mx-auto bg-neutral-200 h-14 xl:flex lg:flex md:flex hidden my-auto mx-auto'>
+            <div class='w-[60px] xl:flex lg:flex md:flex hidden'>
+                <div class='w-1 mx-auto bg-neutral-200 h-14  my-auto mx-auto'>
                 </div>
               </div>
             <div class='mx-autohover:scale-110 hover:transition lg:mt-0 xl:mt-0 md:mt-0 mt-4 hover:duration-1000  hover:ease-in-out'>
@@ -73,6 +73,6 @@
         </div>
   </div>
 
- 
+
 
 </section>
